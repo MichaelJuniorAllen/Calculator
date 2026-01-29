@@ -1,0 +1,26 @@
+input[type="button"]:hover{
+   background-color: slategray;
+   cursor: pointer;
+}
+input[type="button"].arit{
+   background-color: maroon
+}
+input[type="button"].igual{
+   background-color: green;
+}
+input[type="button"].clear{
+   background-color: orangered;
+}
+form{
+    background-color: white;
+}
+input[type="text"]{
+    background-color: black;
+    border: 0px;
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    text-align: right;
+    pointer-events: none;
+}
