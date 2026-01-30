@@ -24,3 +24,26 @@ input[type="text"]{
     text-align: right;
     pointer-events: none;
 }
+input[name="txtcaja1"] {
+   height: 20px;
+   font-size: 16px;
+}
+input[name="txtcaja2"] {
+   margin-bottom: 5px;
+   font-size: 26px;  
+}
+input[type="button"]{
+    font-size: 10px;
+     font-weight: lighter;
+     font-family: segoe, "segoe ui", "dejavu sans", "trebuchet ms", verdana, sans-serif;
+     width: 60px;
+     height: 60px;
+     color: white;
+     background-color: blue;   
+     margin-bottom: 5px;
+     border: 0px;
+   }
+body{
+    background-color: lightgray;
+    
+   }

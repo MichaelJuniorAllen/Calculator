@@ -16,33 +16,34 @@
               <input type="text" name="txtcaja2" value="0">
                 <br>
                 <br>
-                <input type="button" class="clear" onclick="" value="CE">
-                <input type="button" class="clear" onclick="" value="C">
-                <input type="button" class="clear" onclick="" value="⌫">
+                <input type="button" class="clear" onclick="CE()" value="CE">
+                <input type="button" class="clear" onclick="C()" value="C">
+                <input type="button" class="clear" onclick="deletecarac()" value="⌫">
 
-                <input type="button" class="arit" onclick="" value="÷">
+                <input type="button" class="arit" onclick="arit('/')" value="÷">
                 <br>
-                <input type="button"  onclick="" value="7">
-                <input type="button"  onclick="" value="8">
-                <input type="button"  onclick="" value="9">
-                <input type="button" class="arit" onclick="" value="x">
+                <input type="button"  onclick="escribir(this.value)" value="7">
+                <input type="button"  onclick="escribir(this.value)" value="8">
+                <input type="button"  onclick="escribir(this.value)" value="9">
+                <input type="button" class="arit" onclick="arit('*')" value="x">
                 <br>
-                <input type="button"  onclick="" value="4">
-                <input type="button"  onclick="" value="5">
-                <input type="button"  onclick="" value="6">
-                <input type="button" class="arit" onclick="" value="-">
+                <input type="button"  onclick="escribir(this.value)" value="4">
+                <input type="button"  onclick="escribir(this.value)" value="5">
+                <input type="button"  onclick="escribir(this.value)" value="6">
+                <input type="button" class="arit" onclick="arit('-')" value="-">
                 <br>
-                <input type="button"  onclick="" value="1">
-                <input type="button"  onclick="" value="2">
-                <input type="button"  onclick="" value="3">
-                <input type="button" class="arit" onclick="" value="+">
+                <input type="button"  onclick="escribir(this.value)" value="1">
+                <input type="button"  onclick="escribir(this.value)" value="2">
+                <input type="button"  onclick="escribir(this.value)" value="3">
+                <input type="button" class="arit" onclick="arit('+')" value="+">
                 <br>
-                <input type="button"  onclick="" value="√">
-                <input type="button"  onclick="" value="0">
-                <input type="button"  onclick="" value=".">
-                <input type="button" class="igual" onclick="" value="=">
+                <input type="button"  onclick="raiz()" value="√">
+                <input type="button"  onclick="escribir(this.value)" value="0">
+                <input type="button"  onclick="escribir(this.value)" value=".">
+                <input type="button" class="igual" onclick="calcular()" value="=">
                 <br>
         </form>
     </center>
+    <script src="calcst.js"></script>
 </body>
 </html>
