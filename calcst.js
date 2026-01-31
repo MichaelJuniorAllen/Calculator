@@ -29,6 +29,8 @@ function raiz() {
     var caja2 = document.f1.txtcaja2.value;
     document.f1.txtcaja2.value = Math.sqrt(parseFloat(caja2));
     document.f1.txtcaja1.value = "";
+    borrar = true;
+    blocdel = true;
 }
 function arit(o) {
     var caja1 = document.f1.txtcaja1.value;
